@@ -1,11 +1,13 @@
 package co.com.sofka.stepdefinition.step;
 
 import co.com.sofka.stepdefinition.setup.Setup;
+import co.com.sofka.tasks.landingpage.OpenLandingPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 
+import static co.com.sofka.tasks.landingpage.OpenLandingPage.openLandingPage;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class ContactUsStep extends Setup {
@@ -17,7 +19,10 @@ public class ContactUsStep extends Setup {
 
         try {
             actorSetupTheBrowser(Actor);
-            theActorInTheSpotlight().wasAbleTo();
+            theActorInTheSpotlight().wasAbleTo(
+                    openLandingPage()
+
+            );
 
         }catch (Exception e){
             LOGGER.error(e.getMessage(), e);
