@@ -17,7 +17,6 @@ public class FillLogOut implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 WaitUntil.the(validationAccount, isVisible()),
-
                 Scroll.to(LogOutSignin),
                 Click.on(LogOutSignin)
         );

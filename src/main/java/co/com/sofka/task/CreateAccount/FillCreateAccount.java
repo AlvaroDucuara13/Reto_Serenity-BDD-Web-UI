@@ -128,6 +128,7 @@ public class FillCreateAccount implements Task {
                 Scroll.to(FirstNameCustomer),
                 Enter.theValue(customerFirstName).into(FirstNameCustomer),
 
+                WaitUntil.the(LastNameCustomer, isVisible()),
                 Scroll.to(LastNameCustomer),
                 Enter.theValue(customerLastName).into(LastNameCustomer),
 

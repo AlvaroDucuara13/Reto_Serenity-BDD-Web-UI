@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.20/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.20/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.20/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.20/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.20/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="483c219c242eaf5971684695e183f0c2b3849533dba119b1a000991fbbae16bc.html">Login Sign In</a></span>
+                > <span class="truncate-60"><a
+                    href="34e0bc31c29d5426b3e56f630d858f299b4ff47f7dc9b7ebf079566577870761.html">Login exitoso </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-03-2022 14:39</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Login Sign In </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo como usuario de la plataforma web automationpractice.com<br />
+Deseo autenticarme en la pagina<br />
+para poder comprar productos
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Login exitoso
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="1c1125b0c8aed7f09fe4a788ef96b40e0f161c6422e74be4e1647634e2ba129c.png" title=" Given El usuario se encuentra en la pagina web automationpractice.com listo para autenticarse" width="1920"/>
+                <img src="1c1125b0c8aed7f09fe4a788ef96b40e0f161c6422e74be4e1647634e2ba129c.png" title=" Alvarod open landing page" width="1920"/>
+                <img src="1c1125b0c8aed7f09fe4a788ef96b40e0f161c6422e74be4e1647634e2ba129c.png" title=" AlvaroD opens the Landing page" width="1920"/>
+                <img src="11c2ccf8a021bb404f66c49672f2c65228fe80549ef0536b7f1b5339f51a8a51.png" title=" AlvaroD opens the Landing page (completed)" width="1920"/>
+                <img src="11c2ccf8a021bb404f66c49672f2c65228fe80549ef0536b7f1b5339f51a8a51.png" title=" Alvarod open landing page (completed)" width="1920"/>
+                <img src="11c2ccf8a021bb404f66c49672f2c65228fe80549ef0536b7f1b5339f51a8a51.png" title=" Given El usuario se encuentra en la pagina web automationpractice.com listo para autenticarse (completed)" width="1920"/>
+                <img src="799e1fe6829f11f6ea6f0129ee3f8f34c8cc1d28bb000f1df4cb537c81f69dac.png" title=" When El usuario ingresa su correo y su contrase&ntilde;a" width="1920"/>
+                <img src="799e1fe6829f11f6ea6f0129ee3f8f34c8cc1d28bb000f1df4cb537c81f69dac.png" title=" Alvarod browser to create account" width="1920"/>
+                <img src="799e1fe6829f11f6ea6f0129ee3f8f34c8cc1d28bb000f1df4cb537c81f69dac.png" title=" AlvaroD clicks on Signin" width="1920"/>
+                <img src="d12ec987d620cc83005053dad25b624c8aa51852b76459ffd7cfd78475f7c5dd.png" title=" Alvarod browser to create account" width="1920"/>
+                <img src="d12ec987d620cc83005053dad25b624c8aa51852b76459ffd7cfd78475f7c5dd.png" title=" AlvaroD clicks on Signin (completed)" width="1920"/>
+                <img src="d12ec987d620cc83005053dad25b624c8aa51852b76459ffd7cfd78475f7c5dd.png" title=" Alvarod fill create account" width="1920"/>
+                <img src="530de80a1f2e91140a42e282f51e81b1c2be1830405ee05b8949e864feb1a131.png" title=" AlvaroD enters 'Saturnina@outlook.com' into EmailSignin" width="1920"/>
+                <img src="7769c10151d2cc9d106f1b97dd8b3f584fc6148a402228707f10e6d834277a84.png" title=" AlvaroD enters 'Saturnina@outlook.com' into EmailSignin (completed)" width="1920"/>
+                <img src="f275c0c3c5a701843269f43e2b18a10784333f6ab385f622b6e8bb62ac9a4d92.png" title=" AlvaroD clicks on Create an account button" width="1920"/>
+                <img src="d8aca95917c3caf91c29b98813fff5db0d72063977e871d6144de19f30f7e4c0.png" title=" AlvaroD clicks on Create an account button (completed)" width="1920"/>
+                <img src="f810379e1c2c8371c568dc4b3446fd1b136a77a673f80721f744537337761bb5.png" title=" AlvaroD enters 'Saturnina' into CustomerFirstName" width="1920"/>
+                <img src="b20b6c1870876ec1d9748f3afa9043ad20be568e1cdc05b02adb28ecbd09cdaf.png" title=" AlvaroD enters 'Saturnina' into CustomerFirstName (completed)" width="1920"/>
+                <img src="501d4e95530bab3a8c597e66672303bf9a1ad1bf58346e84b9a62d35a9cbf441.png" title=" AlvaroD enters 'Von' into LastNameCustomer" width="1920"/>
+                <img src="4b60ff56d0d87c6447926e59adb88484b2c5d5ad333ad229fe5820dea79a0032.png" title=" AlvaroD enters 'Von' into LastNameCustomer (completed)" width="1920"/>
+                <img src="af0e21b9a55558199acd02a95868961180fe9c4c7ccdbe45a24742483e608724.png" title=" AlvaroD enters 'nullSaturnina' into PasswordCreateAccount" width="1920"/>
+                <img src="8ac4412edad4c64b07dbdefc57949a00a0771f4ec5a94224f67276e2ba55a525.png" title=" AlvaroD enters 'nullSaturnina' into PasswordCreateAccount (completed)" width="1920"/>
+                <img src="04cbd0203edfd1c226e83cbaf43d5748066100045a43474fbe88a1129e6fc550.png" title=" AlvaroD selects 7 in DayBird" width="1920"/>
+                <img src="027920abd5c7f33f02f71d4f1c7cb5d18d207f65df4f2b358bd955548439ac48.png" title=" AlvaroD selects 7 in DayBird (completed)" width="1920"/>
+                <img src="027920abd5c7f33f02f71d4f1c7cb5d18d207f65df4f2b358bd955548439ac48.png" title=" AlvaroD selects 10 in MonthBird" width="1920"/>
+                <img src="98a3488340b7d93e6d663ad5ed3a36d2de3df869a27aac216088aad795b37ea5.png" title=" AlvaroD selects 10 in MonthBird (completed)" width="1920"/>
+                <img src="98a3488340b7d93e6d663ad5ed3a36d2de3df869a27aac216088aad795b37ea5.png" title=" AlvaroD selects 1979 in YearBird" width="1920"/>
+                <img src="96535e74697ed0813477d3f28e92db5dc2b610977f2eb85d64050754d51f6b62.png" title=" AlvaroD selects 1979 in YearBird (completed)" width="1920"/>
+                <img src="87f850434674a74505e522a39f59fbccd338d2ab87121f5f18f37c4698fc8062.png" title=" AlvaroD enters 'Saturnina' into FirstName" width="1920"/>
+                <img src="7fb64274fc8d50abe28ba9740d476d83430e340b3b83a7b84e3ad65fa027fcd0.png" title=" AlvaroD enters 'Saturnina' into FirstName (completed)" width="1920"/>
+                <img src="30fb58f1e9d5e2623a144379e0c381d955e6c0e986c3f17ec8fb23683134cd20.png" title=" AlvaroD enters 'Von' into LastName" width="1920"/>
+                <img src="f96f29642009d04bc35c577f79fc5ea80e84475232dbd6b624ef5b688f704511.png" title=" AlvaroD enters 'Von' into LastName (completed)" width="1920"/>
+                <img src="2e1764322836a1c1ea2c7debf2cfd216d4244b7a2422a7412375658da2724308.png" title=" AlvaroD enters '07253 Upton Mountain, Muiville, RI 80026' into Address" width="1920"/>
+                <img src="73785d058d56e92350244cdeec1812ef046678e11c80422d255fc0b9f7e6ca6b.png" title=" AlvaroD enters '07253 Upton Mountain, Muiville, RI 80026' into Address (completed)" width="1920"/>
+                <img src="03127ab20416c5617a5ba741de32cd3f5cae31786b6e3a75518af5f4e2c1c8ee.png" title=" AlvaroD enters 'Langworthfort' into City" width="1920"/>
+                <img src="8558123cd75fa570990d719f56d8625c7b46ecd6f9a93f234407b5f1446b1796.png" title=" AlvaroD enters 'Langworthfort' into City (completed)" width="1920"/>
+                <img src="650b6e619d8814cc196decb5dd847ec0389ce25dd21cb1a029b5ebd15d1d3b04.png" title=" AlvaroD select Illinois on State" width="1920"/>
+                <img src="0b45e6394e848af708a5ddaffb1865ac42526e3937eaf06b127354c02e6ba796.png" title=" AlvaroD select Illinois on State (completed)" width="1920"/>
+                <img src="3320284a8ade48fe13e19c6eeeecfaaab345f9d75deef5010f1f5785f18c00d7.png" title=" AlvaroD enters '54060' into ZipPostalCode" width="1920"/>
+                <img src="a87e0053d605ec3dfb2ace2ec52817da4a968d0c3ddca3598d3624db93abd369.png" title=" AlvaroD enters '54060' into ZipPostalCode (completed)" width="1920"/>
+                <img src="bd4d91980a1c46961f6ada2b210028b97382752e8448a1c3193f758a9e5f13a7.png" title=" AlvaroD enters '532-527-6328' into MobilePhone" width="1920"/>
+                <img src="76857cc06ba8239e9862e5493884d6bf47388c0c939dc22a1919863d6abc020c.png" title=" AlvaroD enters '532-527-6328' into MobilePhone (completed)" width="1920"/>
+                <img src="81d73bbaf8d8e5ec2611f3eb78d0a3eedee56edfb78a824815f542d8ac3e838e.png" title=" AlvaroD enters 'Saturnina Langworthfort' into AddressAlias" width="1920"/>
+                <img src="e67b63a031083421448f7c22d4038879ca9a487c7ff573ece360241d4c148b2d.png" title=" AlvaroD enters 'Saturnina Langworthfort' into AddressAlias (completed)" width="1920"/>
+                <img src="e67b63a031083421448f7c22d4038879ca9a487c7ff573ece360241d4c148b2d.png" title=" AlvaroD clicks on AccountSubmit" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" Alvarod fill create account" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" AlvaroD clicks on AccountSubmit (completed)" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" Alvarod fill log out" width="1920"/>
+                <img src="f7d1d96a1ba7268d9b0440f469230b75de1b884f8719c33ea56451295969e49d.png" title=" AlvaroD clicks on SubmitSignin" width="1920"/>
+                <img src="d12ec987d620cc83005053dad25b624c8aa51852b76459ffd7cfd78475f7c5dd.png" title=" Alvarod fill log out" width="1920"/>
+                <img src="d12ec987d620cc83005053dad25b624c8aa51852b76459ffd7cfd78475f7c5dd.png" title=" AlvaroD clicks on SubmitSignin (completed)" width="1920"/>
+                <img src="d12ec987d620cc83005053dad25b624c8aa51852b76459ffd7cfd78475f7c5dd.png" title=" Alvarod fill login user" width="1920"/>
+                <img src="07f6f020a1201b52fd2c75ca1091a3e30ec62d851b14f6aa31ac79dca887aaa8.png" title=" AlvaroD enters 'Saturnina@outlook.com' into LogInEmail" width="1920"/>
+                <img src="ba428f83080ea844f361086210884eb439776eb15464b6d54cb2265ce7fb71bf.png" title=" AlvaroD enters 'Saturnina@outlook.com' into LogInEmail (completed)" width="1920"/>
+                <img src="50b2a729c38112e6d3fd4ee9809e66b75c4148baf503554522de2290d9099951.png" title=" AlvaroD enters 'nullSaturnina' into PasswordSignin" width="1920"/>
+                <img src="8af8518af89eb85eba443eb64e26920b7f1114701c4aba1088063489f4b5f1fb.png" title=" AlvaroD enters 'nullSaturnina' into PasswordSignin (completed)" width="1920"/>
+                <img src="f724eadad6cd4e5f79b98d3ac5c3f6d4bbe81a907c5f82c3704fec339f6b1b2b.png" title=" AlvaroD clicks on SubmitSignin" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" When El usuario ingresa su correo y su contrase&ntilde;a" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" Alvarod fill login user" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" AlvaroD clicks on SubmitSignin (completed)" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" Then El usuario debera recibir un mensaje de confirmacion inicio de sesion como respuesta exitosa" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" Then login user question should be (true)" width="1920"/>
+                <img src="0669d87d3d50a6f88cfec643f9d86dab3a23c0e86734d8073bcfd3b3ebc0ac7b.png" title=" Then El usuario debera recibir un mensaje de confirmacion inicio de sesion como respuesta exitosa (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.2.9</span>
+</div>
+</body>
+</html>
