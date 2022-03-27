@@ -1,10 +1,0 @@
-
-e	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áï»‚
-l	java:S116"RRename this field "Heading" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷×Ó‰þÿÿÿÿ
-w	java:S116"]Rename this field "DataOrderReference" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ‘’Õúÿÿÿÿ
-p	java:S116"VRename this field "DataMessage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ á£þÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å«ÓÛÿÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å½ÑÙùÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í÷éøûÿÿÿÿ
-c	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇŽÆ«
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇšÈîúÿÿÿÿ

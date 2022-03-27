@@ -13,14 +13,12 @@ public class DatosModelRandom {
     private String City;
     private String State;
     private String ZipCode;
-
-
-
     private String ZipCodeError;
     private String Country;
     private String MobilePhone;
     private String AddressAlias;
     private String Email;
+
     private String OrderReference;
     private String Message;
 

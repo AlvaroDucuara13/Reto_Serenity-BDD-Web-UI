@@ -15,11 +15,5 @@ p
 @src/main/java/co/com/sofka/task/landingpage/OpenLandingPage.java,2\6\263201e4f699f78ac3a0d5275436d7a9cec7386a
 C
 serenity.properties,2\5\25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
-o
-?src/main/java/co/com/sofka/task/ContacUs/FillContactUsForm.java,f\1\f1e3ea09a0fa10e28ffdaadf0b0808d0e3eae62f
-p
-@src/main/java/co/com/sofka/task/ContacUs/BrowserToContactUs.java,3\c\3c69a65a6e0418ce68fc337279e603e72877e77f
 j
 :src/test/java/co/com/sofka/stepdefinition/setup/Setup.java,7\5\7573847d29d8ffa31c9c9229412fcecced042ec4
-q
-Asrc/test/java/co/com/sofka/stepdefinition/step/ContactUsStep.java,6\7\67a86a73595620a399919ae1fd4e3de73d389680

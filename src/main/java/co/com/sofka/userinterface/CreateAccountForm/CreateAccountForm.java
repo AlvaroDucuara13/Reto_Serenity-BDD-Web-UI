@@ -14,7 +14,7 @@ public class CreateAccountForm extends PageObject {
 
     public static final Target EmailSignin= Target
             .the("EmailSignin")
-            .located(xpath("//*[@i]d=\"email_create\""));
+            .located(xpath("//*[@id=\"email_create\"]"));
 
     public static final Target CreateSubmit = Target
             .the("CreateSubmit")
@@ -32,52 +32,52 @@ public class CreateAccountForm extends PageObject {
             .the("PasswordCreateAccount")
             .located(xpath("//*[@id=\"passwd\"]"));
 
-    public static final Target DayBird= Target
+    public static final Target DayBirdAccount = Target
             .the("DayBird")
-            .located(cssSelector("#days :nth-child(10)"));
+            .located(cssSelector("#days > option:nth-child(1)"));
 
-    public static final Target MonthBird= Target
+    public static final Target MonthBirdAccount = Target
             .the("MonthBird")
             .located(cssSelector("#months :nth-child(3)"));
 
-    public static final Target YearBird= Target
+    public static final Target YearBirdAccount = Target
             .the("YearBird")
             .located(cssSelector("#years :nth-child(25)"));
 
-    public static final Target FirstNameAddress= Target
+    public static final Target FirstNameAddressAccount = Target
             .the("FirstName")
             .located(xpath("//*[@id=\"firstname\"]"));
 
-    public static final Target LastNameAddress= Target
+    public static final Target LastNameAddressAccount = Target
             .the("LastName")
             .located(xpath("//*[@id=\"lastname\"]"));
 
-    public static final Target Address= Target
+    public static final Target AddressAccount = Target
             .the("Address")
             .located(xpath("//*[@id=\"address1\"]"));
 
-    public static final Target City= Target
+    public static final Target CityAccount = Target
             .the("City")
             .located(xpath("//*[@id=\"city\"]"));
 
-    public static final Target State= Target
+    public static final Target StateAccount = Target
             .the("State")
             .located(cssSelector("#id_state :nth-child(10)"));
 
-    public static final Target ZipCode= Target
+    public static final Target ZipCodeAccount = Target
             .the("ZipPostalCode")
             .located(xpath("//*[@id=\"postcode\"]"));
 
-    public static final Target Country= Target
+    public static final Target CountryAccount = Target
             .the("CountryName")
             .located(xpath("//*[@id=\"id_country\"]"));
 
 
-    public static final Target MobilePhone= Target
+    public static final Target MobilePhoneAccount = Target
             .the("MobilePhone")
             .located(xpath("//*[@id=\"phone_mobile\"]"));
 
-    public static final Target Alias= Target
+    public static final Target AliasAccount = Target
             .the("AddressAlias")
             .located(xpath("//*[@id=\"alias\"]"));
 
