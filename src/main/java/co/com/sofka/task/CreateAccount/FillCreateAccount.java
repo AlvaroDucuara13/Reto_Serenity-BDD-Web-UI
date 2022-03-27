@@ -113,8 +113,7 @@ public class FillCreateAccount implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                /*Scroll.to(Signin),
-                Click.on(Signin),*/
+
 
                 Scroll.to(EmailSignin),
                 Enter.theValue(Email).into(EmailSignin),
@@ -130,14 +129,14 @@ public class FillCreateAccount implements Task {
                 Scroll.to(PasswordCreateAccount),
                 Enter.theValue(Password).into(PasswordCreateAccount),
 
-                /*Scroll.to(DayBirdAccount),
+              Scroll.to(DayBirdAccount),
                 SelectFromOptions.byValue(DayBird).from(DayBirdAccount),
 
                 Scroll.to(MonthBirdAccount),
                 SelectFromOptions.byValue(MonthBird).from(MonthBirdAccount),
 
                 Scroll.to(YearBirdAccount),
-                SelectFromOptions.byValue(YearBird).from(YearBirdAccount),*/
+                SelectFromOptions.byValue(YearBird).from(YearBirdAccount),
 
 
                 Scroll.to(FirstNameAddressAccount),
@@ -153,15 +152,11 @@ public class FillCreateAccount implements Task {
                 Scroll.to(CityAccount),
                 Enter.theValue(City).into(CityAccount),
 
-              /*  Scroll.to(StateAccount),
-                SelectFromOptions.byValue(State).from(StateAccount),*/
-
+                Scroll.to(StateAccount),
+                SelectFromOptions.byVisibleText(State).from(StateAccount),
 
                 Scroll.to(ZipCodeAccount),
                 Enter.theValue(ZipCode).into(ZipCodeAccount),
-
-                Scroll.to(CountryAccount),
-                SelectFromOptions.byValue(Country).from(CountryAccount),
 
 
                 Scroll.to(MobilePhoneAccount),

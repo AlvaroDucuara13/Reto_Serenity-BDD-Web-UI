@@ -17,11 +17,11 @@ public class CreateAccountForm extends PageObject {
             .located(xpath("//*[@id=\"email_create\"]"));
 
     public static final Target CreateSubmit = Target
-            .the("CreateSubmit")
-            .located(xpath("//*[@id=\"SubmitCreate\"]/span"));
+            .the("Create an account button")
+            .located(xpath("//*[@id=\"SubmitCreate\"]"));
 
     public static final Target FirstNameCustomer = Target
-            .the("FirstNameCustomer")
+            .the("CustomerFirstName")
             .located(xpath("//*[@id=\"customer_firstname\"]"));
 
     public static final Target LastNameCustomer = Target
@@ -34,15 +34,15 @@ public class CreateAccountForm extends PageObject {
 
     public static final Target DayBirdAccount = Target
             .the("DayBird")
-            .located(cssSelector("#days > option:nth-child(1)"));
+            .located(xpath("//*[@id=\"days\"]"));
 
     public static final Target MonthBirdAccount = Target
             .the("MonthBird")
-            .located(cssSelector("#months :nth-child(3)"));
+            .located(xpath("//*[@id=\"months\"]"));
 
     public static final Target YearBirdAccount = Target
             .the("YearBird")
-            .located(cssSelector("#years :nth-child(25)"));
+            .located(xpath("//*[@id=\"years\"]"));
 
     public static final Target FirstNameAddressAccount = Target
             .the("FirstName")
@@ -62,7 +62,7 @@ public class CreateAccountForm extends PageObject {
 
     public static final Target StateAccount = Target
             .the("State")
-            .located(cssSelector("#id_state :nth-child(10)"));
+            .located(xpath("//*[@id=\"id_state\"]"));
 
     public static final Target ZipCodeAccount = Target
             .the("ZipPostalCode")
@@ -88,7 +88,7 @@ public class CreateAccountForm extends PageObject {
 
     public static final Target validationAccount = Target
             .the("validationAccount")
-            .located(cssSelector(".account :nth-child(1)"));
+            .located(xpath("//*[@id=\"center_column\"]/h1"));
 
     public static final Target MessageError = Target
             .the("MessageError")

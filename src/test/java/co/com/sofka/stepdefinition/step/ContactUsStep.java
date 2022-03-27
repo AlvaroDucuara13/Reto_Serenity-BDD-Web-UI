@@ -8,11 +8,13 @@ import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 
 
-import static co.com.sofka.questions.ContacUsErrorQuestion.contacUsErrorQuestion;
-import static co.com.sofka.questions.ContactUsValidationQuestion.contactUsQuestion;
+import static co.com.sofka.questions.ContactUs.ContacUsErrorQuestion.contacUsErrorQuestion;
+import static co.com.sofka.questions.ContactUs.ContactUsValidationQuestion.contactUsQuestion;
 import static co.com.sofka.task.ContacUs.BrowserToContactUs.browseToContacUs;
 import static co.com.sofka.task.ContacUs.FillContactUsForm.fillContactUsForm;
 import static co.com.sofka.task.landingpage.OpenLandingPage.openLandingPage;
+import static co.com.sofka.userinterface.ContactUsForm.ContactUsForm.ContactUsMessageError;
+import static co.com.sofka.userinterface.ContactUsForm.ContactUsForm.ContactUsValidation;
 import static co.com.sofka.util.ConstantsKey.CUSTOMERSERVICE;
 import static co.com.sofka.util.ConstantsKey.WEBMASTER;
 import static co.com.sofka.util.DatosRandomPersona.generarPersonasRandom;
@@ -23,6 +25,9 @@ import static org.hamcrest.CoreMatchers.equalTo;
 public class ContactUsStep extends Setup {
     private static final Logger LOGGER = Logger.getLogger(ContactUsStep.class);
     private static final String Actor = "AlvaroD";
+    private static final String CUSTOMERSERVICE = "Customer service";
+    private static final String WEBMASTER = "Webmaster";
+    private static final String MESSAGEERROR = "The message cannot be blank.The message cannot be blank.";
     private  DatosModelRandom random;
 
     @Given("El cliente se encuentra en la plataforma web automationpractice.com")
@@ -50,7 +55,7 @@ public class ContactUsStep extends Setup {
             theActorInTheSpotlight().attemptsTo(
                     browseToContacUs(),
                     fillContactUsForm()
-                            .UsingHeading(WEBMASTER.getValue())
+                            .UsingHeading(WEBMASTER)
                             .UsingEmail(random.getEmail())
                             .UsingOrderReference(random.getOrderReference())
                             .AndUSingMessage(random.getMessage())
@@ -82,9 +87,10 @@ public class ContactUsStep extends Setup {
             theActorInTheSpotlight().attemptsTo(
                     browseToContacUs(),
                     fillContactUsForm()
-                            .UsingHeading(CUSTOMERSERVICE.getValue())
+                            .UsingHeading(CUSTOMERSERVICE)
                             .UsingEmail(random.getEmail())
                             .UsingOrderReference(random.getOrderReference())
+                            .AndUSingMessage("")
             );
         }catch (Exception e){
             LOGGER.error(e.getMessage());
@@ -97,10 +103,8 @@ public class ContactUsStep extends Setup {
     public void elClientePodraObservarUnMensajeDeAdvertenciaComoRespuestaErronea() {
         try {
 
-            theActorInTheSpotlight().should(
-                    seeThat(
-                            contacUsErrorQuestion(),equalTo(true)
-                    )
+            seeThat(
+                    contacUsErrorQuestion().wasErrorValitadion(MESSAGEERROR),equalTo(true)
             );
         }catch (Exception e){
             LOGGER.error(e.getMessage());

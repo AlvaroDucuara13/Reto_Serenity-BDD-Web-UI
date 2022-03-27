@@ -35,14 +35,14 @@ public class DatosRandomPersona {
        // PostId = String.valueOf(DatosRandom.number().numberBetween(00,99));
         FirstName = DatosRandom.name().firstName();
         LastName = DatosRandom.name().lastName();
-        Password =LastName;
-        DayBird = String.valueOf(DatosRandom.number().numberBetween(1,31));
+        Password =ZipCode + FirstName;
+        DayBird = String.valueOf(DatosRandom.number().numberBetween(1,30));
         MonthBird = String.valueOf(DatosRandom.number().numberBetween(1,12));
         YearBird = String.valueOf(DatosRandom.number().numberBetween(1900,2022));
         Address = DatosRandom.address().fullAddress();
         City = DatosRandom.address().cityName();
         State = DatosRandom.address().state();
-        ZipCode=String.valueOf(DatosRandom.number().numberBetween(0,5));
+        ZipCode=String.valueOf(DatosRandom.number().numberBetween(00000,99999));
         ZipCodeError = DatosRandom.address().zipCode();
         Country = DatosRandom.address().country();
         MobilePhone = DatosRandom.phoneNumber().cellPhone();
@@ -65,7 +65,6 @@ public class DatosRandomPersona {
         random.setState(State);
         random.setZipCode(ZipCode);
         random.setZipCodeError(ZipCodeError);
-        random.setCountry(Country);
         random.setMobilePhone(MobilePhone);
         random.setAddressAlias(AddressAlias);
         random.setEmail(Email);

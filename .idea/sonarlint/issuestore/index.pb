@@ -1,12 +1,6 @@
 
 `
 0src/main/java/co/com/sofka/util/Log4jValues.java,f\a\fac5dd5be44dee423e2dfa2903e633749bf690c6
-a
-1src/main/java/co/com/sofka/util/ConstantsKey.java,c\f\cfaecf0d47bd97f822959e645548658e06994125
-u
-Esrc/main/java/co/com/sofka/questions/ContactUsValidationQuestion.java,b\5\b597be2c2c503a468a5ebca6164ea0c606843aba
-o
-?src/main/java/co/com/sofka/questions/ContacUsErrorQuestion.java,2\1\216874d9e33be5c18dc195b2371643922c54788a
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 u
@@ -17,3 +11,11 @@ C
 serenity.properties,2\5\25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
 j
 :src/test/java/co/com/sofka/stepdefinition/setup/Setup.java,7\5\7573847d29d8ffa31c9c9229412fcecced042ec4
+p
+@src/main/java/co/com/sofka/task/ContacUs/BrowserToContactUs.java,3\c\3c69a65a6e0418ce68fc337279e603e72877e77f
+y
+Isrc/main/java/co/com/sofka/task/CreateAccount/BrowserToCreateAccount.java,4\e\4eea2e2984d91c596652bb753ea3bf72c9568eaa
+t
+Dsrc/main/java/co/com/sofka/task/CreateAccount/FillCreateAccount.java,0\6\06e84adb6af425b23d90a820f2f9e0e45e17fe82
+x
+Hsrc/main/java/co/com/sofka/models/datosRandomModel/DatosModelRandom.java,5\4\547301f891689dc0179cc27a0df1e93c9b1192db
