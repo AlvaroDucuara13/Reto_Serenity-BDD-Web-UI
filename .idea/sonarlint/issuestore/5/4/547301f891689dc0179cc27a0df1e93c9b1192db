@@ -1,20 +1,0 @@
-
-n	java:S116"TRename this field "FirstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤•×·şÿÿÿÿ
-m	java:S116"SRename this field "LastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‡àıÿÿÿÿ
-t	java:S116"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬›™Âûÿÿÿÿ8ÆƒşÏü/
-n	java:S116	"RRename this field "DayBird" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈñœÂ8ÆƒşÏü/
-u	java:S116
-"TRename this field "MonthBird" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¦„şÿÿÿÿ8ºĞıÏü/
-o	java:S116"SRename this field "YearBird" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×üÄÕ8î›şÏü/
-n	java:S116"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü©8´‚Ğü/
-k	java:S116"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑùÛ8´‚Ğü/
-q	java:S116"PRename this field "State" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¾ñàúÿÿÿÿ8´‚Ğü/
-n	java:S116"RRename this field "ZipCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¿È…8´‚Ğü/
-x	java:S116"WRename this field "ZipCodeError" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÎŸÎúÿÿÿÿ8ëªáĞü/
-m	java:S116"RRename this field "Country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š„’98 ñ‚Ğü/
-r	java:S116"VRename this field "MobilePhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ”Ì8ÃŠƒĞü/
-x	java:S116"WRename this field "AddressAlias" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Ç¯¢úÿÿÿÿ8É¾ƒĞü/
-l	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áï»‚8‹•‰Ğü/
-u	java:S116"YRename this field "OrderReference" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê¥¼‘8‹•‰Ğü/
-m	java:S116"RRename this field "Message" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Âóy8‹•‰Ğü/
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôÉæÆ

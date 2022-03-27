@@ -6,8 +6,10 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.sofka.userinterface.CreateAccountForm.CreateAccountForm.*;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class FillCreateAccount implements Task {
     private String customerFirstName;
@@ -115,11 +117,14 @@ public class FillCreateAccount implements Task {
         actor.attemptsTo(
 
 
+                WaitUntil.the(EmailSignin, isVisible()),
                 Scroll.to(EmailSignin),
                 Enter.theValue(Email).into(EmailSignin),
                 Scroll.to(CreateSubmit),
                 Click.on(CreateSubmit),
 
+
+                WaitUntil.the(FirstNameCustomer, isVisible()),
                 Scroll.to(FirstNameCustomer),
                 Enter.theValue(customerFirstName).into(FirstNameCustomer),
 

@@ -13,10 +13,6 @@ import static co.com.sofka.questions.ContactUs.ContactUsValidationQuestion.conta
 import static co.com.sofka.task.ContacUs.BrowserToContactUs.browseToContacUs;
 import static co.com.sofka.task.ContacUs.FillContactUsForm.fillContactUsForm;
 import static co.com.sofka.task.landingpage.OpenLandingPage.openLandingPage;
-import static co.com.sofka.userinterface.ContactUsForm.ContactUsForm.ContactUsMessageError;
-import static co.com.sofka.userinterface.ContactUsForm.ContactUsForm.ContactUsValidation;
-import static co.com.sofka.util.ConstantsKey.CUSTOMERSERVICE;
-import static co.com.sofka.util.ConstantsKey.WEBMASTER;
 import static co.com.sofka.util.DatosRandomPersona.generarPersonasRandom;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;

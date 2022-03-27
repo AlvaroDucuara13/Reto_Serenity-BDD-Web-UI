@@ -42,8 +42,8 @@ public class DatosRandomPersona {
         Address = DatosRandom.address().fullAddress();
         City = DatosRandom.address().cityName();
         State = DatosRandom.address().state();
-        ZipCode=String.valueOf(DatosRandom.number().numberBetween(00000,99999));
-        ZipCodeError = DatosRandom.address().zipCode();
+        ZipCode=String.valueOf(DatosRandom.number().numberBetween(10000,99999));
+        ZipCodeError =String.valueOf(DatosRandom.number().numberBetween(0000000,9999999)); ;
         Country = DatosRandom.address().country();
         MobilePhone = DatosRandom.phoneNumber().cellPhone();
         AddressAlias=FirstName+" "+City;

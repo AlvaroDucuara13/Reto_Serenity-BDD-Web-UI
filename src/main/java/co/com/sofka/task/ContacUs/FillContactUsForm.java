@@ -7,8 +7,11 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.sofka.userinterface.ContactUsForm.ContactUsForm.*;
+import static co.com.sofka.userinterface.CreateAccountForm.CreateAccountForm.EmailSignin;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class FillContactUsForm implements Task {
     private String Email;
@@ -39,11 +42,9 @@ public class FillContactUsForm implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Scroll.to(ContactUs),
-                Click.on(ContactUs),
 
                 SelectFromOptions.byVisibleText(Heading).from(SubjectHeading),
-
+                WaitUntil.the(EmailAddress, isVisible()),
                 Scroll.to(EmailAddress),
                 Enter.theValue(Email).into(EmailAddress),
                 Scroll.to(ContactUsForm.OrderReference),
