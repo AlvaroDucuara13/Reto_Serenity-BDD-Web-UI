@@ -1,44 +1,0 @@
-
-q
-java:S3008	"VRename this field "DatosRandom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÇªÎúÿÿÿÿ
-l
-java:S3008
-"QRename this field "PostId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š™›äøÿÿÿÿ
-i
-java:S3008"TRename this field "FirstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”äØ	
-i
-java:S3008"SRename this field "LastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ß®
-n
-java:S3008"SRename this field "FullName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿİªâÿÿÿÿÿ
-k
-java:S3008"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·…Ìóøÿÿÿÿ
-m
-java:S3008"RRename this field "Message" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó‹Ëšøÿÿÿÿ
-t
-java:S3008"YRename this field "OrderReference" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‘¬ñúÿÿÿÿ
-u
-java:S1450	"ZRemove the "DatosRandom" field and declare it as a local variable in the relevant methods.(­ÇªÎúÿÿÿÿ
-o
-java:S1450"TRemove the "Email" field and declare it as a local variable in the relevant methods.(·…Ìóøÿÿÿÿ
-m
-java:S1450"XRemove the "FirstName" field and declare it as a local variable in the relevant methods.(”äØ	
-r
-java:S1450"WRemove the "FullName" field and declare it as a local variable in the relevant methods.(Ÿİªâÿÿÿÿÿ
-m
-java:S1450"WRemove the "LastName" field and declare it as a local variable in the relevant methods.(©ß®
-q
-java:S1450"VRemove the "Message" field and declare it as a local variable in the relevant methods.(Ó‹Ëšøÿÿÿÿ
-x
-java:S1450"]Remove the "OrderReference" field and declare it as a local variable in the relevant methods.(…‘¬ñúÿÿÿÿ
-p
-java:S1450
-"URemove the "PostId" field and declare it as a local variable in the relevant methods.(Š™›äøÿÿÿÿ
-k
-java:S1450"URemove the "random" field and declare it as a local variable in the relevant methods.(Ì®ıÌ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(ÌÑ“õÿÿÿÿÿ
-E
-java:S1068
-"*Remove this unused "PostId" private field.(Š™›äøÿÿÿÿ
-G
-java:S1068",Remove this unused "FullName" private field.(Ÿİªâÿÿÿÿÿ

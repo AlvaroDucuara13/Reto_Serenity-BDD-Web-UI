@@ -1,7 +1,0 @@
-
-f	java:S116"QRename this field "PostId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¶’æ
-g	java:S116"SRename this field "FullName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¹úN
-e	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áï»‚
-n	java:S116"YRename this field "OrderReference" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê¥¼‘
-l	java:S116"RRename this field "Message" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€µÕ§ûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôÉæÆ

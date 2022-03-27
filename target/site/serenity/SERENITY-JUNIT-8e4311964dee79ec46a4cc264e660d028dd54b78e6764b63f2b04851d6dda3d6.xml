@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Contac Us" skipped="0" tests="2" time="43.73" timestamp="2022-03-26 09:38:44"><testcase name="ContacUs exitoso"/><testcase name="ContacUs no exitoso"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Contac Us" skipped="0" tests="2" time="67.09" timestamp="2022-03-26 10:17:08"><testcase name="ContacUs exitoso"/><testcase name="ContacUs no exitoso"><error type="java.lang.NullPointerException"/><system-err>null&#13;
 co.com.sofka.task.ContacUs.FillContactUsForm.performAs(FillContactUsForm.java:41)&#13;
 co.com.sofka.stepdefinition.step.ContactUsStep.elClienteIngresaSusDatosPersonalesPeroOlvidoEnviarElMensajeDeRequerimiento(ContactUsStep.java:82)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:27)&#13;
