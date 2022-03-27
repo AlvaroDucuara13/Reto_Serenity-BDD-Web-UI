@@ -13,8 +13,6 @@ j
 :src/test/java/co/com/sofka/stepdefinition/setup/Setup.java,7\5\7573847d29d8ffa31c9c9229412fcecced042ec4
 }
 Msrc/main/java/co/com/sofka/questions/CreateAccount/CreateAccountQuestion.java,3\1\313a7c7e8f6b1991773190f26e8c4468249904cb
-Å
-Qsrc/main/java/co/com/sofka/userinterface/CreateAccountForm/CreateAccountForm.java,6\6\666ffdf083888a7be5edc424a596559f5ecd7daa
 d
 4src/test/java/co/com/sofka/runner/ContactUstest.java,9\5\95c00ca7295a7e728b75771e2aafb87c11406e1b
 a

@@ -12,5 +12,5 @@ import org.junit.runner.RunWith;
         glue = {"co.com.sofka.stepdefinition.step"}
 )
 
-public class FillCreateAccountTest {
+public class CreateAccountTest {
 }

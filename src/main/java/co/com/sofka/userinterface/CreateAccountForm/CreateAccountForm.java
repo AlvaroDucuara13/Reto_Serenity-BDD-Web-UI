@@ -4,7 +4,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 
 import static org.openqa.selenium.By.*;
-import static org.openqa.selenium.By.cssSelector;
+
 
 public class CreateAccountForm extends PageObject {
 
