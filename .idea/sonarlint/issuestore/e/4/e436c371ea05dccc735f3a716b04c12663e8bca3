@@ -1,0 +1,80 @@
+
+q
+java:S3008	"VRename this field "DatosRandom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÇªÎúÿÿÿÿ
+i
+java:S3008"TRename this field "FirstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”äØ	
+i
+java:S3008"SRename this field "LastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ß®
+n
+java:S3008"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ³×øÿÿÿÿ
+h
+java:S3008"RRename this field "DayBird" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¹‰ß
+j
+java:S3008"TRename this field "MonthBird" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•™ÊÏ
+i
+java:S3008"SRename this field "YearBird" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¦Ò­
+m
+java:S3008"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—°Úóûÿÿÿÿ
+e
+java:S3008"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë£Ù
+f
+java:S3008"PRename this field "State" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ÜÍÌ
+h
+java:S3008"RRename this field "ZipCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œıÅ¼
+m
+java:S3008"WRename this field "ZipCodeError" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Æœ­
+m
+java:S3008"RRename this field "Country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ïúÿÿÿÿ
+l
+java:S3008"VRename this field "MobilePhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê’Åä
+r
+java:S3008"WRename this field "AddressAlias" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦øğ¼úÿÿÿÿ
+k
+java:S3008"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·…Ìóøÿÿÿÿ
+m
+java:S3008"RRename this field "Message" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó‹Ëšøÿÿÿÿ
+t
+java:S3008"YRename this field "OrderReference" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‘¬ñúÿÿÿÿ
+q
+java:S1450"VRemove the "Address" field and declare it as a local variable in the relevant methods.(—°Úóûÿÿÿÿ
+v
+java:S1450"[Remove the "AddressAlias" field and declare it as a local variable in the relevant methods.(¦øğ¼úÿÿÿÿ
+i
+java:S1450"SRemove the "City" field and declare it as a local variable in the relevant methods.(ë£Ù
+q
+java:S1450"VRemove the "Country" field and declare it as a local variable in the relevant methods.(½ïúÿÿÿÿ
+u
+java:S1450	"ZRemove the "DatosRandom" field and declare it as a local variable in the relevant methods.(­ÇªÎúÿÿÿÿ
+l
+java:S1450"VRemove the "DayBird" field and declare it as a local variable in the relevant methods.(Ÿ¹‰ß
+o
+java:S1450"TRemove the "Email" field and declare it as a local variable in the relevant methods.(·…Ìóøÿÿÿÿ
+m
+java:S1450"XRemove the "FirstName" field and declare it as a local variable in the relevant methods.(”äØ	
+m
+java:S1450"WRemove the "LastName" field and declare it as a local variable in the relevant methods.(©ß®
+q
+java:S1450"VRemove the "Message" field and declare it as a local variable in the relevant methods.(Ó‹Ëšøÿÿÿÿ
+p
+java:S1450"ZRemove the "MobilePhone" field and declare it as a local variable in the relevant methods.(Ê’Åä
+n
+java:S1450"XRemove the "MonthBird" field and declare it as a local variable in the relevant methods.(•™ÊÏ
+x
+java:S1450"]Remove the "OrderReference" field and declare it as a local variable in the relevant methods.(…‘¬ñúÿÿÿÿ
+r
+java:S1450"WRemove the "Password" field and declare it as a local variable in the relevant methods.(œ³×øÿÿÿÿ
+j
+java:S1450"TRemove the "State" field and declare it as a local variable in the relevant methods.(¡ÜÍÌ
+m
+java:S1450"WRemove the "YearBird" field and declare it as a local variable in the relevant methods.(Ì¦Ò­
+q
+java:S1450"[Remove the "ZipCodeError" field and declare it as a local variable in the relevant methods.(«Æœ­
+k
+java:S1450"URemove the "random" field and declare it as a local variable in the relevant methods.(Ì®ıÌ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ÌÑ“õÿÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.( ĞõÃıÿÿÿÿ
+7
+java:S1116."Remove this empty statement.(È¬Ë‘üÿÿÿÿ
+F
+java:S1068"+Remove this unused "Country" private field.(½ïúÿÿÿÿ

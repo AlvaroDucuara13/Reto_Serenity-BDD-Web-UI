@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Contac Us","ContacUs exitoso","SUCCESS","2022-03-27T14:57:21.275-05:00[America/Bogota]","0.0","24.39"
+"Contac Us","ContacUs no exitoso","SUCCESS","2022-03-27T14:57:46.572-05:00[America/Bogota]","0.0","19.27"
+"CreateAccount","CreateAccount exitoso","SUCCESS","2022-03-27T14:55:28.13-05:00[America/Bogota]","0.0","50.73"
+"CreateAccount","CreateAccount no exitoso","SUCCESS","2022-03-27T14:56:19.818-05:00[America/Bogota]","0.0","42.95"
+"Login_Sign in","Login exitoso","SUCCESS","2022-03-27T14:53:29.897-05:00[America/Bogota]","0.0","49.36"
+"Login_Sign in","Login no exitoso","SUCCESS","2022-03-27T14:54:20.099-05:00[America/Bogota]","0.0","49.45"

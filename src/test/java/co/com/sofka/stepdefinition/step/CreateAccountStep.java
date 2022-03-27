@@ -18,7 +18,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class CreateAccountStep extends Setup {
-    private static final Logger LOGGER = Logger.getLogger(ContactUsStep.class);
+    private static final Logger LOGGER = Logger.getLogger(CreateAccountStep.class);
     private static final String Actor = "AlvaroD";
     private static final String ValidationMessage = "MY ACCOUNT";
     private static final String ValidationMessageError = "The Zip/Postal code you've entered is invalid. It must follow this format: 00000";

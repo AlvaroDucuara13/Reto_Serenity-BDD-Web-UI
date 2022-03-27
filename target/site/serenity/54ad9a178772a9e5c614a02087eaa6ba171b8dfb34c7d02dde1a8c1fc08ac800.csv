@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CreateAccount","CreateAccount exitoso","SUCCESS","2022-03-27T14:55:28.13-05:00[America/Bogota]","0.0","50.73"
+"CreateAccount","CreateAccount no exitoso","SUCCESS","2022-03-27T14:56:19.818-05:00[America/Bogota]","0.0","42.95"

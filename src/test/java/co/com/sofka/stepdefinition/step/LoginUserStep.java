@@ -2,13 +2,11 @@ package co.com.sofka.stepdefinition.step;
 
 import co.com.sofka.models.datosRandomModel.DatosModelRandom;
 import co.com.sofka.stepdefinition.setup.Setup;
-import co.com.sofka.task.LoginUser.FillLoginUser;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 
-import static co.com.sofka.questions.CreateAccount.CreateAccountQuestion.createAccountQuestion;
 import static co.com.sofka.questions.LogInuser.LoginUserError.loginUserError;
 import static co.com.sofka.questions.LogInuser.LoginUserQuestion.loginUserQuestion;
 import static co.com.sofka.task.CreateAccount.BrowserToCreateAccount.browserToCreateAccount;
@@ -23,7 +21,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class LoginUserStep extends Setup {
 
-    private static final Logger LOGGER = Logger.getLogger(ContactUsStep.class);
+    private static final Logger LOGGER = Logger.getLogger(LoginUserStep.class);
     private static final String Actor = "AlvaroD";
     private static final String ValidationMessage = "MY ACCOUNT";
     private static final String ValidationMessageError = "Password is required.";

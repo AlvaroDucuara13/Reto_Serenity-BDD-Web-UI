@@ -1,0 +1,6 @@
+
+v	java:S116"URename this field "EmailLogin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş©÷Óùÿÿÿÿ8”÷‹æü/
+m	java:S116"XRename this field "PasswordLogin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ÍÇ¬
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙ¼°ùÿÿÿÿ8÷‹æü/
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÓ·ˆ8Ÿ÷‹æü/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê¿Â
