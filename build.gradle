@@ -45,7 +45,7 @@ dependencies {
     implementation group: 'com.fasterxml.jackson.core',       name: 'jackson-databind',        version: jacksonVersion
     implementation group: 'com.fasterxml.jackson.datatype',   name: 'jackson-datatype-jsr310', version: jacksonVersion
     implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml',  version: jacksonVersion
-
+    implementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 

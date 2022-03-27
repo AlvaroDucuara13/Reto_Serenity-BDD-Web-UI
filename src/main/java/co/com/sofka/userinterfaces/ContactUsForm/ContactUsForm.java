@@ -31,7 +31,7 @@ public class ContactUsForm extends PageObject {
             .the("OrderReference")
             .located(id("id_order"));
 
-    public static final Target Messae = Target
+    public static final Target Message = Target
             .the("Message")
             .located(xpath("//*[@id=\"message\"]"));
 
