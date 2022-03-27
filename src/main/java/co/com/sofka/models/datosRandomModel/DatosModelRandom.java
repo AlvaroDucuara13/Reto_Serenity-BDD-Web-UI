@@ -10,7 +10,7 @@ public class DatosModelRandom {
     //ContacUs
     private String Email;
     private String OrderReference;
-    private String Message;
+    private String Message=" ";
 
     public String getMessage() {
         return Message;

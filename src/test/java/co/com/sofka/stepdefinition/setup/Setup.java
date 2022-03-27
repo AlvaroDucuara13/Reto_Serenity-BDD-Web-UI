@@ -13,7 +13,7 @@ public class Setup {
     @Managed()
     protected WebDriver browser;
 
-    private void setupBrowser(WebDriver browser){
+   private void setupBrowser(WebDriver browser){
         browser.manage().deleteAllCookies();
         browser.manage().window().maximize();
     }
@@ -24,12 +24,8 @@ public class Setup {
     }
 
     protected void actorSetupTheBrowser(String actorName){
-        defineSO();
         setupBrowser(browser);
         setupUser(actorName, browser);
     }
 
-    private void defineSO(){
-
-    }
 }
